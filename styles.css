@@ -1195,7 +1195,7 @@ margin-left: 1rem;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .services-list li {
         font-size: 1rem;
         line-height: 1.5;
@@ -1204,6 +1204,7 @@ margin-left: 1rem;
         margin-bottom: 0.5rem;
     }
     .book-now{
-        
+      color: black;
+
     }
 }
