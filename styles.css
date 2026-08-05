@@ -901,9 +901,13 @@ font-size: 1em;
     }
 
     .book-now {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         text-align: center;
-     
+        position: relative;
+        z-index: 101;
     }
     #header{
  display: grid;
