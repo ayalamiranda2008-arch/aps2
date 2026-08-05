@@ -1196,15 +1196,5 @@ margin-left: 1rem;
 }
 
 @media screen and (max-width: 500px) {
-    .services-list li {
-        font-size: 1rem;
-        line-height: 1.5;
-        display: block;
-        margin-left: 0.5rem;
-        margin-bottom: 0.5rem;
-    }
-    .book-now{
-      color: black;
 
-    }
 }
