@@ -21,10 +21,12 @@ p{
 
 
 
-.about-btn a{
+.about-us a{
     text-decoration: none;
 }
-
+.about-us{
+    padding-bottom: 100px;
+}
 
 
 
