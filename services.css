@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: auto;
+    background-color: #f5f5f5;
+    padding-top: 80px;
+
+}
+
+.book-now a{
+    background-color: #800000;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 2px solid #800000;
+}
+
+.book-now a:hover{
+    background-color: white;
+    color: #800000;
+    transition: ease .2s;
+}
+
+h1{
+    padding: 80px 0 20px 0;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;    
+
+
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+
+}
+
+@media (max-width: 768px) {
+    .book-now {
+        width: 100%;
+        text-align: center;
+    }
+
+    .book-now a {
+        width: auto;
+        padding: 0.8rem 1rem;
+        margin: 0.5rem auto;
+        display: inline-block;
+    }
+}
+
