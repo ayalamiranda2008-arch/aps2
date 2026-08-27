@@ -2,23 +2,32 @@ body{
     font-family: 'Playfair Display', serif;
     margin: auto;
     max-width: 100%;
-    padding: 0px;
+    padding: 20px;
     background-color: #f0f0f0;
     color: black;
+    padding-top: 140px;
 
 }
 footer p{
     text-align: center;
     font-size: 1em;
-    color: black;
+    color: red;
     padding: 10px;
+}
+p{
+    color: black;
+    
 }
 
 
 
 
-
-
+.about-us a{
+    text-decoration: none;
+}
+.about-us{
+    padding-bottom: 100px;
+}
 
 
 
@@ -155,11 +164,16 @@ footer p{
 }
 #home{
    padding: 0px;
+   margin: 0px;
 
     background-color: white;
     padding-top: 140px;
     
  
+}
+.view-projects h2{
+    text-decoration: none;
+    color: black;
 }
 
 .about-page {
@@ -659,13 +673,13 @@ margin: 0 auto;
 
 .contact-container{
     font-size: 1.2em;
-    margin: auto;
+    margin: 0;
     background-color: #0d3811;
-    padding: 20px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    width: 96%;
+    width: 100%;
 
 }
 
@@ -901,9 +915,13 @@ font-size: 1em;
     }
 
     .book-now {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         text-align: center;
-     
+        position: relative;
+        z-index: 101;
     }
     #header{
  display: grid;
@@ -1167,6 +1185,23 @@ font-size: 1em;
         felx-direction: column;
 
     }
+    .contact-container{
+        width: 96%;
+
+    }
+    .contact-container h6{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+
+}
+.contact-container p{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem;
 
 }
 
@@ -1193,4 +1228,8 @@ margin-left: 1rem;
    
 
     }
+}
+
+@media screen and (max-width: 500px) {
+
 }
