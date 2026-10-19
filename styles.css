@@ -551,20 +551,33 @@ align-items: center;
     margin-bottom: 100px;
 
 }
+.after-quote {
+    background-color: #0d3811;
+    padding: 1.5rem 1.25rem 1rem;
+    margin: 1rem 0;
+    color: white;
+    
+   
+}
+.after-quote span{
+    font-style: italic;
+}
 .commitment{
     font-weight: bold;
     font-size: 3em;
     text-align: center;
-
-margin: 10px;
+    margin: 10px;
+    color: white;
 
 }
 hr{
     width: 50%;
     margin: 20px auto;
+    border-color: rgba(255,255,255,0.4);
 }
 .commitment > span{
 font-weight: bold;
+color: #d0d9cb;
 
 }
 
