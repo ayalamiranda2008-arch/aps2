@@ -1156,7 +1156,14 @@ font-size: 1em;
 
         
     }
- 
+ .service-title{
+    font-size: 3em;
+    text-align: left;
+  margin-top: 100px;
+    margin-bottom: 50px;
+    font-style: italic;
+    margin-left: 20px;
+ }
 
     .service-area-container,
     .contact-container,
