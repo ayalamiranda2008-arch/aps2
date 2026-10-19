@@ -714,11 +714,13 @@ margin: 0 auto;
 
 
 }
+div .contact-container{
+    background-color: #A9A9A9;
 
+}
 .contact-container{
     font-size: 1.2em;
     margin: 0;
-    background-color: #2f2f2f;
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
