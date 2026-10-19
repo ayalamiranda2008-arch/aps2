@@ -556,11 +556,15 @@ align-items: center;
     padding: 1.5rem 1.25rem 1rem;
     margin: 1rem 0;
     color: white;
-    
+
    
 }
 .after-quote span{
     font-style: italic;
+}
+.after-quote img{
+    maargin: 0;
+    
 }
 .commitment{
     font-weight: bold;
