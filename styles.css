@@ -463,7 +463,7 @@ margin-top: 100px;
 
 }
 .why-choose-us p{
-    line-height: 2em;
+    line-height: 1rem;
     font-weight: normal;
     font-size: 1.3em;
     margin: 10px 0;
@@ -493,7 +493,7 @@ align-items: center;
 
 }
 .italic-wcu span{
-    font-weight: regular;
+
     color: #0d3811;
     font-style: italic;
 }
