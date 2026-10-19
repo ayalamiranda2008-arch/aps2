@@ -822,13 +822,17 @@ div .contact-container{
 }
 .email-2:hover{
     background-color: white;
-    color: red;
+    color: #0d3811;
     transition: .2s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.email-2:hover a,
+.phone:hover a {
+    color: #0d3811;
+}
 .phone:hover{
     background-color: white;
-    color: green;
+    color: #0d3811;
     transition: .2s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
