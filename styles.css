@@ -5,7 +5,7 @@ body{
     padding: 20px;
     background-color: #f0f0f0;
     color: black;
-    padding-top: 140px;
+    padding-top: 110px;
 
 }
 footer p{
@@ -33,16 +33,12 @@ p{
 
 .nav-bar a{
     text-decoration: none;
-
     color: black;
-    padding: 10px ;
-    margin:10px;
+    padding: 8px 10px;
+    margin: 0 6px;
     font-weight: bold;
-  
-    width: 20px;
-   
-
-
+    width: auto;
+    line-height: 1.2;
 
 }
 
@@ -78,15 +74,19 @@ p{
 .nav-bar{
     display: flex; 
     justify-content: space-evenly;
-    font-size: 1.4em;
-    margin: auto;
-    margin-right: 20px;
+    align-items: center;
+    font-size: 1.1em;
+    margin: 0 20px 0 auto;
+    min-height: 58px;
 }
 
 .nav-bar ul{
     list-style-type: none;
     display: flex;
-    margin: 0 auto;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 0.15rem;
 }
 .view-projects h2{
    text-decoration: none;
@@ -113,12 +113,14 @@ p{
 
  #header{
     display: flex;
+    align-items: center;
     background-color: white;
     margin: 0;
     border-bottom: 10px solid #0d3811;
     position: fixed;
     top: 0;
    width: 100%;
+   min-height: 86px;
    z-index: 100;
 
 
@@ -126,8 +128,9 @@ p{
 }
 .logo-container{
     display: flex;
-    margin: 10px;
-    padding: 10px;
+    align-items: center;
+    margin: 0 10px;
+    padding: 6px 10px;
   
 
 }
@@ -152,10 +155,10 @@ p{
 
 }
 .logo-container  img{
-    width: 12em;
+    width: 9.5em;
     height: auto;
     margin: 0 auto;
-    padding: 10px;
+    padding: 4px 8px;
 }
 
 #header h1{
@@ -384,14 +387,16 @@ padding: 10px;
 .book-now a{
     background-color: #800000;
     border-radius: 5%;
-  
-  
     text-decoration: none;
     color: white;
-display: flex;  justify-content: space-between;  align-items: center;  padding: 1rem 2rem;
-margin-top: 20px;
-margin-left: 50px;
-border: 2px solid #800000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1.2rem;
+    margin-top: 0;
+    margin-left: 20px;
+    border: 2px solid #800000;
+    line-height: 1.2;
 }
 
 
