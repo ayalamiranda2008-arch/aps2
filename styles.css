@@ -463,12 +463,14 @@ margin-top: 100px;
 
 }
 .why-choose-us p{
-    line-height: 1rem;
+
     font-weight: normal;
     font-size: 1.3em;
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
     color: black;
+    maring: 0 auto;
+    
 
 }
 .why-choose-us ul{
