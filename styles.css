@@ -996,6 +996,10 @@ font-size: 1em;
    
 
     }
+    .service-area .service-description{
+        color: white;
+        background-color: #0d3811;
+    }
 
     .book-now a {
         width: auto;
