@@ -1238,3 +1238,10 @@ margin-left: 1rem;
 @media screen and (max-width: 500px) {
 
 }
+
+.family-owned-h2{
+ display: flex;
+ justify-content: left;
+    align-items: left;
+
+}
